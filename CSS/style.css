@@ -16,7 +16,6 @@
 header{
     position: -webkit-sticky;
     position: sticky;
-    top: 20px;
 }
 
 
@@ -27,7 +26,12 @@ header{
     align-items: baseline;
     font-family: 'Barlow', sans-serif;
     background-color: #FCBB6D;
+    height: 100%;
 }
+
+
+
+
 
 .menu ul {
     list-style: none;
@@ -79,6 +83,15 @@ p{
 }
 
 a{
-    color:#475C7A ;
+    color:black;
     font-family: 'Barlow', sans-serif;
+}
+
+a:hover{
+    background-color: #685D79 ;
+}
+
+a:visited {
+    background-color:#685D79;   
+
 }
