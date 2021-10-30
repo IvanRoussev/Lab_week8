@@ -13,21 +13,19 @@
 }
 
 
-header{
-    position: -webkit-sticky;
-    position: sticky;
-}
-
 
 .menu{
     display: flex;
     justify-content: left;
+    justify-content: space-between;
     flex-direction: row;
     align-items: baseline;
     font-family: 'Barlow', sans-serif;
     background-color: #FCBB6D;
     height: 100%;
+
 }
+
 
 
 
@@ -37,18 +35,17 @@ header{
     list-style: none;
     display: flex;
     align-items: baseline;
+    justify-content: space-evenly ;
 }
 
-.menu ul a {
-    padding: 50px;
-}
+
+
 
 .container{
     display: grid;
     justify-content:space-evenly;
     grid-template-columns:1fr 2.7fr 1fr 2fr;
     background-color: #AB6C82;
-
 }
 
 .navlist{
@@ -56,6 +53,8 @@ header{
         display: flex;
         align-items:baseline;
         justify-content: flex-end;
+        justify-content: space-evenly;
+
 }
 
 
