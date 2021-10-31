@@ -10,3 +10,6 @@ COLORS FROM color pallet
 #685D79   
 #475C7A
 */
+
+https://digitalsynopsis.com/wp-content/uploads/2018/06/flat-color-palettes-3.png
+
